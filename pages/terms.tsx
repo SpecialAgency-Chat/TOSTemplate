@@ -18,7 +18,7 @@ const Terms: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col justify-center py-2">
       <Head>
-        <title>{`利用規約｜{process.env.NEXT_PUBLIC_SERVICE_NAME}`}</title>
+        <title>{`利用規約｜${process.env.NEXT_PUBLIC_SERVICE_NAME}`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -90,7 +90,7 @@ const Terms: NextPage = () => {
           <p>ユーザーと私たちとの間の通知または連絡は、私たちの定める方法によって行うものとします。私たちは、ユーザーから、私たちが別途定める方式に従った変更届け出がない限り、現在登録されている連絡先が有効なものとみなして当該連絡先へ通知または連絡を行い、これらは、発信時にユーザーへ到達したものとみなします。</p>
           <H2>第9条（権利義務の譲渡の禁止）</H2>
           <p>ユーザーは、私たちの書面による事前の承諾なく、利用契約上の地位または本規約に基づく権利もしくは義務を第三者に譲渡し、または担保に供することはできません。</p>
-          <H2>第15条（準拠法・裁判管轄）</H2>
+          <H2>第10条（準拠法・裁判管轄）</H2>
           <Ol>
             <li>本規約の解釈にあたっては、日本法を準拠法とします。</li>
             <li>本サービスに関して紛争が生じた場合には、私たちの本店所在地を管轄する裁判所を専属的合意管轄とします。</li>
