@@ -18,7 +18,7 @@ const Privacy: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col justify-center py-2">
       <Head>
-        <title>{`プライバシーポリシー｜{process.env.NEXT_PUBLIC_SERVICE_NAME}`}</title>
+        <title>{`プライバシーポリシー｜${process.env.NEXT_PUBLIC_SERVICE_NAME}`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
